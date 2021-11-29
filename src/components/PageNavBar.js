@@ -13,9 +13,9 @@ import './PageNavBar.css'
 
 const PageNavBar = () => {
     return (
-        <div>
+        <>
             
-<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="Sidebar">
+<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
@@ -32,7 +32,7 @@ const PageNavBar = () => {
   </Container>
 </Navbar>
 
-        </div>
+        </>
     )
 }
 
